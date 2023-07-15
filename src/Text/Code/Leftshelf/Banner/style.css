@@ -1,0 +1,126 @@
+.SwiperSlide img{
+    border:1px solid black;
+}
+.container .banner{
+    background-image:url("https://dev.swaminathan.navabrinditsolutions.com/static/media/BannerRight.9facaa87e25b672c42fc.svg")
+}
+.container .section2{
+    width:95%;
+    margin: auto;
+    margin-top: 40px;
+   background-image: url( https://dev.swaminathan.clearancekommerce.com/static/media/BannerRight.9facaa87e25b672c42fc.svg);
+   background-repeat: no-repeat;
+}
+.container .section2{
+    background-color: white;
+border: 1px solid #ebebeb;
+border-radius: 4px;
+margin-bottom: 16px;
+width:100%;
+}
+
+
+.container .section2 .row .col .block .img img{
+
+    width:100%;
+    height:200px;
+    margin-bottom: 50px;
+    padding:10px;
+}
+
+.container .section2 .row .col .block .data{
+    padding-top: 0px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+
+}
+.container .section2 .row .col .block .data .p
+{
+    font-weight: 500px;
+
+    padding-bottom: 30px;
+margin-left: 30px;
+    text-transform: capitalize;
+}
+.container .section2 .row .col .block .data p{
+    color:green;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+.container .section2 .row .col .block .data button{
+    width:170px;
+    margin-left: 0px;
+    margin-right: 200%;
+    padding-left: 30px;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+@media screen and (min-width: 1230px) and (max-width: 1534px){
+    .container .section{
+    margin:0px 40px;
+}
+.container .section2{
+    width:95%;
+}
+}
+@media screen and (min-width:900px) and (max-width:1230px){
+    .container .section{
+    width:220%;
+    height:100px;
+    margin-right: 1px;
+    }
+    .container .section2{
+        width:215%;
+        margin-left: 15px;
+    }
+    #navigation{
+        width:100%;
+    }
+    .container .section2 .row .col .block .img{
+        width:100%;
+    }
+    .container .section2 .row .col .block .img img{
+
+        width:50%;
+        height:200px;
+    margin-top: 50%;
+        padding:10px;
+}
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .container .section {
+        width:500%;
+        
+    }
+    .container .section2{
+        width:490%;
+        margin-left: 15px;
+    }
+
+}
+@media screen and (min-width:400px) and (max-width:600px){
+    .container .section {
+        width:1000%;
+    }
+    .container .section2{
+        width:1100%;
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:400px){
+    .container .section{
+        width:400%;
+    }
+}
+/*@media only screen and (min-width: 900px){
+    .container .section{
+        width:100%;
+        margin:0px 0px;
+    }
+
+}
+
+
+
+*/

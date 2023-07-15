@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}.container{
+    background-image:url(" https://eco-nature.cmsmasters.net/boxed/wp-content/uploads/sites/3/2014/09/retina_wood1.png");
+    
+}.container .footer .section{
+    width:80%;
+    margin:auto;
+    background-color:#3f3932;;
+    
+}
+
+.container .footer .section .row .col .block{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 55px;
+}
+.container .footer .section .row .col .block .data h2{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding:20px 5px;
+} 
+.container .footer .section .row .col .block .data ul{
+    list-style: none;
+}
+.container .footer .section .row .col .block .data ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: lighter;
+    
+}
+.container .footer .section .row .col .block .data ul li i{
+    color:gray;
+    font-size: 10px;
+    padding-right: 5px;
+}
+.container .footer .section .row .col .block .data ul li a:hover{
+    color:green;
+}
+@media screen and (min-width: 670px) and (max-width: 1200px){
+    
+
+    .container .footer .section{
+        width:100%;
+        margin:auto;
+        background-color:#3f3932;;
+        
+    }
+    .container .footer .section .row .col .block{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+
+        
+        padding-bottom: 40px;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width: 670px){
+    
+    .container .footer .section{
+        width:100%;
+        background-color:#3f3932;;
+        margin: auto;
+    }
+    .container .footer .section .row .col .block{
+        display:grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+
+    padding-right: 300px;
+        padding-bottom: 40px;
+    }
+    
+    
+}
+@media screen and (min-width: 250px) and (max-width: 480px){
+
+    .container .footer .section{
+        width:100%;
+        margin:auto;
+        background-color:#3f3932;;
+        
+    }
+    .container .footer .section .row .col .block{
+        display:grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+
+        justify-content: flex-start;
+        padding-bottom: 40px;
+    }
+}

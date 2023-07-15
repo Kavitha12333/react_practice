@@ -1,0 +1,114 @@
+.center2,content{
+    position: absolute;
+    top:70%;
+    left:50%;
+    width:50px;
+    transform: translate(-50%,-50%);
+
+}
+.click-me{
+    width:20px;
+}
+.content{
+    display:none;
+}
+#click{
+    display:none;
+    margin:20px;
+}
+.click-me{
+    display:block;
+    width:160px;
+    height:50px;
+    background: #27ae60;
+    color:white;
+    border: 1px solid #26a65b;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    cursor: pointer;
+    transition: -5s;
+}
+.click-me:hover{
+    background: #27ae60;
+}
+.content{
+opacity:0 ;
+visibility:hidden ;
+display: block;
+    
+    width:400px;
+    height:350px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.4);
+}
+#click:checked ~ .content{
+    opacity: 1;
+    visibility: visible;
+}
+.header{
+    height:68px;
+    background: #27ae60;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0.2);
+}
+.header h2{
+    color:white;
+    padding-top: 10px;
+    padding-left: 32px;
+    font-weight: normal;
+} 
+.fa-times{
+    position: absolute;
+    left:350px;
+bottom:310px;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+}
+.fa-check{
+    margin:30px 0 0 160px;
+    font-size: 50px;
+    color:#27ae60;
+    border: 2px solid #27ae60;
+    width:80px;
+    height:80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+}
+p{
+    padding-top: 10px;
+    font-size: 15px;
+    color:#1a1a1a;
+    text-align: center;
+    margin: 30px 0px;
+}
+.line{
+    bottom:60px;
+    width:100%;
+    height:1px ;
+    background: silver;
+}
+.close-btn{
+    position:absolute;
+    bottom:12px;
+    left:310px;
+    border:1px solid;
+    padding:6px 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color:#26a65b;
+    
+}
+.close-btn:hover{
+    background-color: #27ae60;
+    color:white;
+    transition:-5s;
+
+}

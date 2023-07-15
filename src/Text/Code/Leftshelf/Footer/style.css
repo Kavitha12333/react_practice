@@ -1,0 +1,501 @@
+*{
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+}
+.container .conclusion {
+    width:95%;
+    margin:auto;
+    line-height: 40px;
+    word-spacing: 10px;
+}
+.container .conclusion h3{
+    text-transform: capitalize;
+}
+.container .Footer {
+    
+    background-image: url("https://dev.swaminathan.navabrinditsolutions.com/static/media/FooterBg.cfeae19abfcd425d98d8.svg");
+
+
+
+    
+}
+.container .Footer .section {
+    margin:auto;
+    margin-top: 40px;
+    width:95%;
+    
+    
+   }
+.container .Footer .section .row .col .block{
+    display: flex;
+    column-gap: 40px;
+    
+
+    
+}
+    .container .Footer .section .row .col .block h2{
+        padding: 10px 0px;
+        text-transform: capitalize;
+    }
+.container .Footer .section .row .col .block .data{
+    width:340px;
+    
+    line-height: 30px;
+    
+    
+}
+.container .Footer .section .row .col .block .data .para2 p{
+    padding-top: 20px;
+    
+}
+.container .Footer .section .row .col .block .second .text i,
+.container .Footer .section .row .col .block .second .first i{
+    font-size: 20px;
+    padding-right: 10px;
+  
+}
+.container .Footer .section .row .col .block .second .start{
+    
+    padding-top: 10px;
+}
+.container .Footer .section .row .col .block .second .start .first img{
+    margin-bottom: 50px;
+}
+.container .Footer .section .row .col .block .second .start .first,
+.container .Footer .section .row .col .block .second .start .text{
+    width:250px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.container .Footer .section .row .col .block .second .start .first a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+.container .Footer .section .row .col .block .second .text a{
+    color:black;
+    text-decoration: none;
+}
+
+.container.Footer .section .row .col .block .second .text i{
+    color:white;
+}
+.container .Footer .section .row .col .block .second .icon{
+    display:flex;
+    font-size: 30px;
+    column-gap: 40px;
+    padding-top: 10px;
+    
+}
+.container .Footer .section .row .col .block .second  .icon  .sum a{
+color:brown;
+
+
+
+}
+
+
+.container .Footer .section .row .col .block .second  .icon  a{
+    color:blue;
+    padding:0px 10px;
+    
+}
+.container .Footer .secton .row .col .block .second .icon .sum a{
+    color:blue;
+    font-size: 30px;
+}
+
+
+
+.container .Footer .section .row .col .block .third ul {
+    padding-top:20px;
+    flex-direction: column;
+    line-height: 1px;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.container .Footer .section .row .col .block .third ul li a{
+    color:black;
+    text-decoration: none;
+    
+    }
+.container .Footer .section .row .col .block .fourth img{
+    
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    .container .Footer .section .row .col .block .fourth h2,
+    .container .Footer .section .row .col .block .five h2{
+        padding-bottom: 20px;
+    }
+
+
+.container .Footer .section .row .col .block .five input{
+    padding:10px 10px;
+    width:200px;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+
+.container .para p{
+    text-align: center;
+    background-color:  rgb(100,18,51);
+    color:white;
+    padding:10px 20px;
+    
+}
+.container .Footer .section .row .col .block .five{
+    width:100%;
+    min-width: 250px;
+    max-width: 300px;
+
+    
+}
+.container .Footer .section .row .col .block .five .form
+    {
+    background-color:gray;
+    border-radius: 25px;
+    position:relative;
+    
+}
+.container .Footer .section .row  .col .block .five input{
+
+width:100%;
+height:100%;
+display: block;
+border-radius: 25px;
+font-size: 15px;
+padding:8px 40px 8px 20px;
+border:none;
+box-shadow: 0 5px 8px 3px light black;
+}
+.container .Footer .section .row .col .block .five  i{
+color:rgb(100,18,51);
+font-size: 25px;
+border-radius: 15px;
+top: 0;
+
+}
+.container .Footer .section .row .col .block .five input:focus{
+outline: none;
+}
+.container .Footer .section .row .col .block .five button{
+position :absolute;
+top: 0;
+right:0;
+height:100%;
+width:50px;
+border-radius: 100%;
+cursor: pointer;
+border:none;
+background: none;
+}
+@media screen and (min-width: 0px) and (max-width: 400px){ 
+    
+    .container .Footer .section .row .col .block  h2{
+        width:340px;
+        color:black;
+        line-height: 30px;
+        
+        
+    }
+.container .Footer {
+    
+    background-image: url("https://dev.swaminathan.navabrinditsolutions.com/static/media/FooterBg.cfeae19abfcd425d98d8.svg");
+width:1400%;
+}
+.container .Footer .section {
+    margin:10px 50px;
+
+    width:80%;
+    
+  }
+  .container .Footer .section .row .col .block{
+    display: flex;
+    flex-direction: column;
+font-size: 15px;  
+
+    
+
+  }
+  .container .para,
+  .container .conclusion
+  {
+    width:1400%;
+  }
+
+
+  .container .para p{
+    text-align: center;
+    background-color:  rgb(100,18,51);
+    color:white;
+    padding:10px 20px;
+    
+}
+.container .Footer .section .row .col .block .data{
+    width:200px;
+    
+    line-height: 30px;
+    
+    
+}
+}
+/*@media screen and (min-width: 480px) and (max-width: 802px){
+    .container .Footer .section .row .col .block{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .container .Footer .section .row .col .block .fourth img{
+    
+        display:block;
+        padding-bottom:300px;
+    }
+    .container .Footer .section .row .col .block .second{
+        order:3;
+
+    }
+    .container .Footer .section .row .col .block .third{
+        order:4;
+    }
+    .container .Footer .section .row .col .block .fourth{
+        order:5;
+    }
+    .container .Footer .section .row .col .block .five {
+        order:2
+    }
+}
+/*@media only screen and (min-width: 900px){
+    .container .para,
+    .Footer{
+        width:110%;
+        margin:0px 0px
+    }
+
+}*/
+
+    
+
+@media screen and (min-width:900px) and (max-width:1230px){
+    .container .para,
+    .Footer{
+    width:220%;
+    margin-right: 0px;
+    }
+    .container .conclusion{
+        width:140%;
+        margin-left: 10px;
+        
+    }
+    .container .Footer .section .row .col .block  h2{
+        width:340px;
+        color:black;
+        line-height: 30px;
+        justify-content: space-between;
+    }
+    .container .Footer .section .row .col .block{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .container .Footer .section .row .col .block .third h2{
+        position:relative;
+    }
+    .container .Footer .section .row .col .block .third ul {
+        padding-top:20px;
+        flex-direction: column;
+        line-height: 1px;
+        list-style: none;
+        padding-bottom: 50px;
+        
+        
+    }
+    
+    .container .Footer .section .row .col .block .third ul li a{
+        color:black;
+        text-decoration: none;
+        position: absolute;
+        
+        
+        
+        }
+    
+    .container .Footer .section .row .col .block .fourth img{
+    
+        display:block;
+        padding-bottom:300px;
+    }
+    .container .Footer .section .row .col .block .second{
+        order:3;
+
+    }
+    .container .Footer .section .row .col .block .third{
+        order:4;
+    }
+    .container .Footer .section .row .col .block .fourth{
+        order:5;
+    }
+    .container .Footer .section .row .col .block .five {
+        order:2
+    }
+}
+    
+    
+@media screen and (min-width:600px) and (max-width:900px){
+    .container .Footer .section .row .col .block{
+        display:flex;
+        flex-wrap: wrap;
+        column-gap: 300px;
+        padding-left: 100px;
+    }
+    .container .para,
+    .Footer{
+    width:490%;
+
+    
+    }
+    .container .Footer .section .row .col .block  h2{
+        width:340px;
+        color:black;
+        line-height: 30px;
+        
+    }
+    .container .Footer .section .row .col .block .third ul {
+        padding-top:20px;
+        flex-direction: column;
+        line-height: 1px;
+        list-style: none;
+        padding-bottom: 50px;
+    }
+    
+    .container .Footer .section .row .col .block .third ul li a{
+        color:black;
+        text-decoration: none;
+        
+        }
+        .container .Footer .section .row .col .block .third ul li{
+            display: block;
+            margin-right: 200%;
+            
+            
+        }
+    
+    
+    .container .Footer .section .row .col .block .second{
+        order:3;
+
+    }
+    .container .Footer .section .row .col .block .third{
+        order:4;
+        
+    }
+    .container .Footer .section .row .col .block .fourth{
+        order:5;
+    }
+    .container .Footer .section .row .col .block .five {
+        order:2
+    }
+    .container .conclusion{
+        width:430%;
+        margin-left: 10%;
+        
+    }
+    
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .container .Footer .section .row .col .block{
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+}
+.container .para,
+.Footer{
+    width:1200%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+    
+}
+.container .conclusion{
+    width:1100%;
+    margin-left: 20%;
+    
+}
+
+.container .Footer .section .row .col .block  h2{
+    width:340px;
+    color:black;
+    line-height: 30px;
+    
+    
+}
+.container .Footer .section .row .col .block .third ul {
+    padding-top:20px;
+    flex-direction: column;
+    line-height: 1px;
+    list-style: none;
+    padding-bottom: 50px;
+    
+    
+}
+
+.container .Footer .section .row .col .block .third ul li a{
+    color:black;
+    text-decoration: none;
+    
+    
+    
+    
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1534px){
+    .container .Footer .section .row .col .block{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .container .para,
+    .Footer {
+        margin: 0px 40px;
+    }
+    .container .Footer .section .row .col .block .fourth img{
+    
+        display:block;
+        padding-bottom:300px;
+    }
+    .container .Footer .section .row .col .block .second{
+        order:3;
+
+    }
+    .container .Footer .section .row .col .block .third{
+        order:4;
+    }
+    .container .Footer .section .row .col .block .fourth{
+        order:5;
+    }
+    .container .Footer .section .row .col .block .five {
+        order:2
+    }
+}
+
+    
+    
+
+    
+        
+         
+
+
+    
+    
+  
+
+
+
+
+

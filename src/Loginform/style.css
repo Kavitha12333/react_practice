@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.show-btn{
+    background: white;
+    padding:10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500px;
+    color:#3498db;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+} 
+
+.show-btn, .container{
+    position:absolute;
+    left:50%;
+    top:70%;
+    transform: translate(-50%,-50%);
+    
+}
+input[type="checkbox"]{
+    display:none;
+}
+.container {
+    display:none;
+    width:410px;
+    background: #fff;
+    padding:30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+#show:checked ~ .container{
+    display:block;
+
+}
+.container .section .row .col .block .close-btn{
+    position:absolute;
+    right:20px;
+    top:10px;
+    cursor: pointer;
+    font-size: 18px;
+    color:black;
+}
+.container .section .row .col .block .close-btn:hover{
+    color:#3498db
+}
+.container .section .row .col .block form .text{
+    height:45px;
+    width:100%;
+    margin:40px 0;
+} 
+.container .section .row .col .block form .text label{
+    font-size: 18px;
+    text-transform: capitalize;
+    
+} 
+.container .section .row .col .block form .text input{
+    margin-top: 10px;
+    height:100%;
+    width:100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border:1px solid lavender;
+    font-weight: 500px;
+    
+}
+.container .section .row .col .block form .text input:focus{
+    border-color:#3498db;
+    border-bottom-width:2px ;
+}
+form .forgot-pass{
+    margin-left: 8px;
+}
+form .forgot-pass a{
+    color:#3498db;
+    text-decoration: none;
+}
+form .forgot-pass a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    margin:30px 0px;
+    height:40px;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+}
+.btn .inner{
+    height:100%;
+    width:300%;
+    left:-100px;
+    position:absolute;
+    z-index: -1;
+    background: -webkit-linear-gradient(right,#56d8e4,#9f01ea, #56d8e4,#9f01ea);
+
+}
+.btn:hover .inner{
+    left:0;
+    
+}
+
+.btn button{
+    width:100%;
+    height:100%;
+    background: none;
+    border: none;
+    color:white;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+form .signup-link{
+    text-align: center;
+}
+form .signup-link a{
+    text-decoration: none;
+    color:#3498db;
+}
+form .signup-link a:hover{
+    text-decoration: underline;
+}
+/*  section 2*/
+.center2,content{
+    position: absolute;
+    top:15%;
+    left:15%;
+    width:50px;
+    transform: translate(-15%,-15%);
+
+}
+.click-me{
+    width:20px;
+}
+.content{
+    display:none;
+}
+#click{
+    display:none;
+    margin:20px;
+}
+.click-me{
+    display:block;
+    width:160px;
+    height:50px;
+    background: #27ae60;
+    color:white;
+    border: 1px solid #26a65b;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    cursor: pointer;
+    transition: -5s;
+}
+.click-me:hover{
+    background: #27ae60;
+}
+.content{
+opacity:0 ;
+visibility:hidden ;
+display: block;
+    
+    width:400px;
+    height:350px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.4);
+}
+#click:checked ~ .content{
+    opacity: 1;
+    visibility: visible;
+}
+.header{
+    height:68px;
+    background: #27ae60;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0.2);
+}
+.header h2{
+    color:white;
+    padding-top: 10px;
+    padding-left: 32px;
+    font-weight: normal;
+} 
+.fa-times{
+    position: absolute;
+    left:350px;
+bottom:310px;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+}
+.fa-check{
+    margin:30px 0 0 160px;
+    font-size: 50px;
+    color:#27ae60;
+    border: 2px solid #27ae60;
+    width:80px;
+    height:80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+}
+p{
+    padding-top: 10px;
+    font-size: 15px;
+    color:#1a1a1a;
+    text-align: center;
+    margin: 30px 0px;
+}
+.line{
+    bottom:60px;
+    width:100%;
+    height:1px ;
+    background: silver;
+}
+.center2 .close-btn{
+    position:absolute;
+    bottom:12px;
+    left:310px;
+    border:1px solid;
+    padding:6px 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color:#26a65b;
+    
+}
+.center2 .close-btn:hover{
+    background-color: #27ae60;
+    color:white;
+    transition:-5s;
+
+}

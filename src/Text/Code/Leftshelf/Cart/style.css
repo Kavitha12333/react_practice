@@ -1,0 +1,17 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.container .filter .section .row .col .block {
+    display:flex;
+}
+.container .filter .section .row .col .block .img{
+/*    display:flex;*/
+
+
+}
+.container .filter .section .row .col .block .text .sum img{
+    width:30%;
+
+}

@@ -1,0 +1,489 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 40px 0px;
+}
+.container .first-contact .section{
+    width:95%;
+    margin: auto;
+}
+.container .first-contact .section .row .col .block {
+    display:flex;
+    column-gap: 20px;
+}
+
+.container .first-contact .section .row .col .block .contact1 h1,
+.container .first-contact .section .row .col .block .contact2 h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #2b2525;
+    font-weight: 600px;
+    padding-bottom: 15px;
+
+}
+.container .first-contact .section .row .col .block .contact1{
+    border:1px solid  lavender;
+    padding:40px 40px;
+    margin-bottom: 25px;
+    width:500px;
+}
+.container .first-contact .section .row .col .block .contact1 .text .icon .sun {
+    
+    display: flex;
+    }
+    .container .first-contact .section .row .col .block .contact1 .text .icon .sun img{
+        color:white;
+    }
+    .container .first-contact .section .row .col .block .contact2{
+        
+    
+border:1px solid lavender;
+padding:10px 20px;
+margin-bottom: 15px;
+border-radius: 100px solid lavender;
+
+}
+.error_field textarea:focus{
+    outline: none;
+} 
+.error_field textarea,
+.error_field input{
+    border: 1px solid red !important;
+} 
+.container .first-contact .section .row .col .block .contact1 p{
+    width:400px;
+
+}
+.container .first-contact .section .row .col .block .contact1 .text p{
+    width:180px;
+}
+.container .first-contact .section .row .col .block .contact1 .text h3{
+    text-transform: capitalize;
+    padding:20px 0px;
+}
+.container .first-contact .section .row .col .block .contact1 .data{
+    display:flex;
+    column-gap: 30px;
+    
+} 
+.container .first-contact .section .row .col .block .contact1 .text .contact {
+    padding-top:15px;
+
+}
+.container .first-contact .section .row .col .block .contact1 .data .text a{
+    text-decoration: none;
+    padding-top: 400px;
+}
+.container .first-contact .section .row .col .block .contact1 .data .icon .socialmedia{
+    
+    display:flex;
+    
+} 
+
+
+.container .first-contact .section .row .col .block .contact1 .data .icon img{
+    padding-right: 20px;
+}
+.container .first-contact .section .row .col .block .contact1 .text .contact a{
+    color:black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.container .map .section {
+    width:100%;
+    margin:auto;
+    
+    margin-bottom: 20px;
+    
+    
+}
+
+
+/*second contact*/
+
+
+
+
+.container .first-contact .section .row .col .block .contact2 form .form-group{
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+
+    font-size: 15px;
+    position:relative;
+ 
+      
+}
+.container .first-contact .section .row .col .block .contact2 form p{
+    
+    
+    font-size: 14px;
+    font-weight: 200px;
+    
+    padding-bottom: 5px;
+    justify-content:flex-start;
+    margin-left:12px;
+    text-transform: capitalize;
+}
+.container .first-contact .section .row .col .block .contact2 form p span{
+    color:#871c47;
+}
+label{
+    display:none;
+}
+
+.container .first-contact .section .row .col .block .contact2 form input{
+    
+    padding:13px ;
+    
+    margin-top: 5px;
+    text-transform: capitalize;
+    width:400px;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+}
+
+.container .first-contact .section .row .col .block .contact2 form textarea{
+    padding: 28px;
+    
+    margin-top: 5px;
+    width: 400px;
+    border:1px solid #ebebeb;
+}
+.container .first-contact .section .row .col .block .contact2 .task{
+    display:flex;
+    column-gap: 15px;
+    
+}
+
+.container .first-contact .section .row .col .block .contact2 form{
+    width:90%;
+    display:flex;
+    
+    padding-top: 10px;
+    
+}
+.container .first-contact .section .row .col .block .contact2 form label{
+    height:100%;
+    position:absolute;
+    
+    
+    cursor: text;
+
+    
+
+
+} 
+/*.container .first-contact .section .row .col .block .contact2 form input{
+    width:400px;
+    padding:10px;
+    height:40px;
+    border-radius: 50px ;
+    border-color:gray;
+    
+}*/
+
+
+
+
+button{
+    background-color:#641233;    
+    margin-top: 20px;
+    margin-left: 260px;
+    padding:10px 20px;
+    border-radius: 25px;
+    color:white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+button:hover{
+background-color: #871c47;
+}
+
+/*@media  screen and (min-width:771px)and(max-width:990){
+    .container .first-contact .section .row .col .block .contact1 .message{
+        order:1;
+    }
+    .container .first-contact .section .row .col .block .contact1 .icon{
+        order:3
+    }
+    .container .first-contact .section .row .col .block .contact1 .text{
+        order:2;
+    }
+    } */
+    
+@media screen and (min-width: 1000px) and (max-width: 1530px){
+    .container .first-contact .section{
+        width:95%;
+        margin: auto;
+    }
+    .map .section .row .col .block {
+        width:100%;
+    }
+    .container .first-contact .section .row .col .block {
+        display:flex;
+        flex-direction:row;
+    }
+
+    .container .first-contact .section .row .col .block .contact2 form .form-group{
+        padding-left:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-size: 15px;
+        position:relative;
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 .task{
+        display:flex;
+        flex-direction: column;
+        column-gap: 15px;
+        
+    }
+    
+    .container .first-contact .section .row .col .block .contact2 form{
+        width:90%;
+        display:flex;
+        
+        padding-top: 10px;
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 form label{
+        height:100%;
+        position:absolute;
+        
+        
+        cursor: text;
+    
+        
+    
+    
+    } 
+    .container .first-contact .section .row .col .block .contact2 form input{
+        width:400px;
+        padding:10px;
+        height:40px;
+        border: 2px solid #ebebeb;
+        border-radius: 50px;
+    
+        
+
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 form input:hover{
+        border-top-color: #871c47;
+    }
+    .container .first-contact .section .row .col .block .contact2 form textarea{
+        width:400px;
+        padding:10px;
+        height:220px;
+        border-radius: 15px ;
+        border-color: #ebebeb;
+        
+    
+    }
+}
+    
+   /*.container .first-contact .section .row .col .block{
+        display: flex;
+        
+        column-gap: 40px;
+    }
+    .container .first-contact .section .row .col .block .contact2,
+    .container .first-contact .section .row .col .block .contact1{
+    
+        border:none;
+        
+        }
+        .container .first-contact .section .row .col .block .contact1 .data{
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+        } 
+        .container .first-contact .section .row .col .block .contact2{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .first-contact .section .row .col .block{
+            display: flex;
+            column-gap: 40px;
+        }
+        .container .first-contact .section .row .col .block .contact2 form .form-group{
+            padding-left:10px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            text-transform: capitalize;
+        }
+        
+        .container .first-contact .section .row .col .block .contact2 form{
+            display:flex;
+            flex-direction: column;
+            padding-top: 20px;
+        
+        }
+        .container .first-contact .section .row .col .block .contact2 form.text{
+            display: flex;
+        }
+        
+        .container .first-contact .section .row .col .block .contact2 input {
+            width:500px;
+            padding: 30px 20px;
+            
+            border-radius: 50px ;
+            
+        }
+        .container .first-contact .section .row .col .block .contact2 textarea{
+            padding-left: 50px;
+            width:400px;
+            padding-bottom: 40px;
+            height:200px;
+        }
+          /*second contact
+        .container .first-contact .section .row .col .block .contact2 form .form-group{
+            padding-left:10px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            text-transform: capitalize;
+        }
+        
+        .container .first-contact .section .row .col .block .contact2 form{
+            display:flex;
+            flex-direction: column;
+            padding-top: 20px;
+        
+        }
+        
+        .container .first-contact .section .row .col .block .contact2 input {
+            width:420px;
+            padding: 13px 20px;
+            
+            border-radius: 50px ;
+            
+        }
+        .container .first-contact .section .row .col .block .contact2 textarea{
+            padding-left: 50px;
+            width:460px;
+            padding-bottom: 40px;
+            height:200px;
+            border-radius: 1px solid gray;
+        
+        
+            
+        
+        }*/
+    
+
+
+@media screen and (min-width:250px) and (max-width:480px){
+    .container .first-contact .section .row .col .block {
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .map .section .row .col .block {
+        width:400%;
+    }
+    .container .first-contact .section .row .col .block .contact2 .task{
+        display:flex;
+        flex-direction: column;
+        column-gap: 15px;
+        
+    }
+    .container .first-contact .section .row .col .block .contact1 h1,
+.container .first-contact .section .row .col .block .contact2 h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 15px;
+    width:300px;
+}
+    
+
+}
+@media screen and (min-width: 480px) and (max-width: 1000px){
+    .map .section .row .col .block {
+        width:100%;
+        
+    }
+    .container .first-contact .section .row .col .block {
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .container .first-contact .section .row .col .block .contact2 form .form-group{
+        padding-left:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-size: 15px;
+        position:relative;
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 .task{
+        display:flex;
+        flex-direction: column;
+        column-gap: 15px;
+        
+    }
+    
+    .container .first-contact .section .row .col .block .contact2 form{
+        width:90%;
+        display:flex;
+        
+        padding-top: 10px;
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 form label{
+        height:100%;
+        position:absolute;
+        
+        
+        cursor: text;
+    
+        
+    
+    
+    } 
+    
+    .container .first-contact .section .row .col .block .contact2 form input{
+        width:600px;
+        padding:10px;
+        height:40px;
+        border-radius: 50px ;
+        border-color:#ebebeb;
+        
+    }
+    .container .first-contact .section .row .col .block .contact2 form textarea{
+        width:600px;
+        padding:10px;
+        height:220px;
+        border-radius: 15px ;
+        border-color:#ebebeb;
+        
+    
+    }
+    @media screen and (min-width: 430px) and (max-width: 600px){
+
+    button{
+        background-color:#641233;    
+        margin-top: 20px;
+        margin-left: 260px;
+        padding:10px 100px;
+        border-radius: 25px;
+        color:white;
+        letter-spacing: 1px;
+        font-size: 13px;
+        text-transform: capitalize;
+    
+    }
+}
+    
+
+}

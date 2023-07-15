@@ -1,0 +1,11 @@
+.sidebar .section .row .col .block ul{
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar .section .row .col .block ul li a{
+    text-decoration: none;
+    color:black
+}
+.sidebar .section .row .col .block ul li a i{
+    padding-left: 60px;
+}

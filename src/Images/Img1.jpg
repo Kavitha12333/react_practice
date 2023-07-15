@@ -1,0 +1,14 @@
+import React from 'react'
+
+ const Img1 = () => {
+  return (
+    <div>
+        <div className='container'>
+            <div className='images'>
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+            </div>
+        </div>
+        </div>
+  )
+}
+export default Img1

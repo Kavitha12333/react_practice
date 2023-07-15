@@ -1,0 +1,87 @@
+
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container .section {
+   width:53%;
+   margin:auto;
+}
+.container .section{
+   box-shadow: 0 15px 20px  10px#ABB2B9;
+   margin-top: 200px;
+}
+
+
+
+.container .section .row .col .block .text{
+   margin-left: 10px;
+   margin-right: 10px;
+} 
+
+
+
+
+.container .section .row .col .block h1{
+
+   text-transform: capitalize;
+   font-family: 400px;
+   border-bottom: 1px solid lavender;
+margin: 0px 15px;
+padding:10px 0px;
+}
+.container .row .col .block .content {
+
+   display:flex;
+   flex-wrap:wrap ;
+   justify-content: space-between;
+}
+
+.container .section .row .col .block .text label{
+display:none;
+}
+.container .row .col .block .content input{
+   width:380px;
+   padding:10px 50px;
+   
+   
+}
+.container .row .col .block .content p{
+   text-transform: capitalize;
+   padding: 10px 0px;
+}
+.containr .row .col .block .gender label{
+   padding:10px 40px;
+}
+.gender{
+   margin: 5px 15px;
+   
+}
+ h3{
+   margin-left: 15px;
+   text-transform: capitalize;
+   padding: 10px 0px;
+}
+.gender label{
+   padding-right: 200px;
+   text-transform: capitalize;
+}
+.btn{
+   text-align: center;
+   margin-top:20px;
+}
+.container .section .row .col .block  button{
+   width:790px;
+   padding:10px 0px;
+   background-color:#641233;
+   margin-left:0px 10px;
+   color:white;
+   letter-spacing: 1px;
+   font-size: 14px;
+   margin-bottom: 3px;
+}
+
+  
+  

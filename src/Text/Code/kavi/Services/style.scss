@@ -1,0 +1,298 @@
+.container {
+    background-color: #fff;
+
+    .services .section {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+
+        h2 {
+            font-weight: normal;
+            padding: 30px 30px;
+
+        }
+
+        p {
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-color: #ebebeb;
+            padding: 10px 30px;
+            font-weight: lighter;
+        }
+
+        .block {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 30px;
+            padding: 20px 30px;
+            border-bottom: 1px solid;
+            border-color: #ebebeb;
+
+            .slip img {
+                width: 200%;
+                padding-top: 10px;
+            }
+
+            .slip p {
+                padding-left: 28%;
+                border-top: none;
+                border-bottom: none;
+                font-weight: lighter;
+                font-size: 15px;
+            }
+
+            .slip h3 {
+                padding-left: 250px;
+                text-transform: capitalize;
+                font-weight: 400;
+            }
+
+            .slip .btn {
+                padding-left: 250px;
+                border-radius: 100px solid;
+
+            }
+
+            .slip button {
+                padding: 10px 30px;
+                text-transform: capitalize;
+                background-color: rgba(119, 189, 62, 1);
+                color: white;
+                border-radius: 40px;
+
+            }
+        }
+    }
+
+    .statistics .section {
+        background-color: #fff;
+        width: 80%;
+        margin: auto;
+        border-bottom: 1px solid #ebebeb;
+
+        h2 {
+            padding: 20px 40px;
+            text-transform: capitalize;
+            font-weight: normal;
+        }
+
+
+        .block {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 100px;
+            padding-bottom: 50px;
+
+            .circle {
+                border: 1px solid;
+                border-radius: 100%;
+                border-color: rgba(119, 189, 62, 1);
+                padding: 25px 25px;
+                border-width: 20px;
+                text-align: center;
+
+            }
+        }
+    }
+
+    .programs .section {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        padding-left: 30px;
+
+        h2 {
+            font-weight: normal;
+            padding: 20px 30px;
+        }
+
+        .block {
+
+            padding: 2px 30px;
+            column-gap: 30px;
+            display: flex;
+
+            ul {
+                list-style: none;
+                padding: 20px 0px;
+
+
+                li {
+                    text-decoration: none;
+                    border: 1px solid;
+                    border-color: #ebebeb;
+                    padding-left: 10px;
+                    padding-right: 280px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+
+
+
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        text-transform: capitalize;
+
+                    }
+
+                }
+
+                li:hover {
+                    background-color: rgba(119, 189, 62, 1)
+                }
+
+            }
+
+            p {
+                width: 98%;
+                font-size: 13px;
+                font-weight: lighter;
+                padding-top: 20px;
+                line-height: 20px;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 400px) {}
+
+@media screen and (min-width: 670px) and (max-width: 1200px) {
+    .services .section {
+        width: 100%;
+        margin: auto;
+        background-color: #fff;
+      .block{
+            display:flex;
+            justify-content: space-between;
+            column-gap: 30px;
+            padding:20px 30px;
+            border-bottom:1px solid;
+            border-color: #ebebeb;
+
+    }
+}
+.statistics .section {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #ebebeb;
+
+    h2 {
+        padding: 20px 40px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+
+
+    .block {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 100px;
+        padding-bottom: 50px;
+
+}
+}
+.programs .section {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding-left: 30px;
+
+    h2 {
+        font-weight: normal;
+        padding: 20px 30px;
+    }
+
+    .block {
+
+        padding: 2px 30px;
+        column-gap: 30px;
+        display: flex;
+    }}
+
+}
+
+/*@media screen and (min-width: 400px) and (max-width: 670px) {
+    .services .section {
+        width: 100%;
+        margin: auto;
+        background-color: #fff;
+        .block{
+            display:flex;
+            justify-content: space-between;
+            flex-direction: column;
+            column-gap: 30px;
+            padding:20px 30px;
+            border-bottom:1px solid;
+            border-color: #ebebeb;
+
+    }
+    }
+    .statistics .section {
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid #ebebeb;
+
+        h2 {
+            padding: 20px 40px;
+            text-transform: capitalize;
+            font-weight: normal;
+        }
+
+
+        .block {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 100px;
+            padding-bottom: 50px;
+        }
+}
+.programs .section {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding-left: 30px;
+
+    h2 {
+        font-weight: normal;
+        padding: 20px 30px;
+    }
+
+    .block {
+
+        padding: 2px 30px;
+        column-gap: 30px;
+        display: flex;
+    }
+}
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 400px) {
+    .services .section {
+        width: 100%;
+        margin: auto;
+        background-color: #fff;
+    
+    
+
+    
+    }
+    .statistics .section {
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid #ebebeb;
+
+        
+    }
+    .programs .section {
+        width: 100%;
+        margin: auto;
+        background-color: #fff;
+        padding-left: 30px;
+
+    }
+}*/

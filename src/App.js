@@ -1,12 +1,17 @@
 //import React, {useState, useEffect} from "react";
 import React from "react"
+//import Cards from "./Projects/Cards"
+import Loginform from"./Projects/Loginform"
+//import Popup from"./Projects/Popup"
+//import Loginform1 from"./Projects/Loginform1"
+//import Loginform2 from"./Projects/Loginform2"
 //import Sass from "./Sass/Sass"
 //import Project from "./Project/Project";
-import Kavi from"./Text/Code/kavi"
+/*import Kavi from"./Text/Code/kavi"
 import Header from"./Text/Code/kavi/Header";
 import Home from"./Text/Code/kavi/Home";
 import Services from"./Text/Code/kavi/Services"
-import Footer from"./Text/Code/kavi/Footer"
+import Footer from"./Text/Code/kavi/Footer"*/
 
 
 
@@ -19,8 +24,8 @@ import Footer from"./Text/Code/kavi/Footer"
 //import Kpost from "./Text/Code/Form.jsx/Kpost/Kpost";
 //import Spost from "./Text/Code/Form.jsx/Spost/Spost"
 
-import { ReactDOM } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+/*import { ReactDOM } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"*/
 
 //import Usememo from "./Usememo.jsx/Usememo";
 //import Useref from "./Text/Code/Useref.jsx/Useref";
@@ -51,7 +56,7 @@ import axios from "axios";*/
 function App() {
   return(
     
-   <Router>
+   /*<Router>
       <Header/>
       <Routes>
         <Route path="/" element={<Kavi/>}/>
@@ -61,11 +66,11 @@ function App() {
       
       </Routes>
       <Footer/>
-  </Router>
- /* <div>
-    <Sass/>
+  </Router>*/
+ <div>
+    <Loginform/>
 
-  </div>  */
+  </div>  
 
   )
 }

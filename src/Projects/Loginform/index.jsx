@@ -25,7 +25,7 @@ import LockIcon from '@mui/icons-material/Lock';
                 <input type="text"  placeholder='password'/>
             </div>
             <div className='pass'><a href="#">forgot-password</a></div>
-            <div className='row button'>
+            <div className='row '>
                 <input type="submit" value="login"/>
                  </div>
     

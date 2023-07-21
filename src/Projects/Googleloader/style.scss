@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.container{
+    display:flex;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+background-color: #f1f1f1;
+margin-bottom: 30px;
+.googleloader{
+    display:flex;
+    column-gap: 30px;
+    .dot{
+        height:50px;
+        width:50px;
+        background-color:#008ae6;
+        border-radius: 50%;
+        box-shadow: 0 5px 10 rgba(0,0,0,0.1);
+        animation:animate 1s ease-in-out infinite alternate;
+    }
+.dot:nth-child(1){
+    animation-delay: -0.2s;        
+    }
+    .dot:nth-child(2){
+        background-color: red;
+        animation-delay: -0.5s;        
+            
+    }
+    .dot:nth-child(3){
+        background-color: yellow;
+        animation-delay: -0.7s;        
+    }
+    .dot:nth-child(4){
+        background-color: green;
+        animation-delay: -0.1s;        
+            
+    }
+    @keyframes animate {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+    
+}
+
+}
+}

@@ -1,10 +1,19 @@
 //import React, {useState, useEffect} from "react";
 import React from "react"
+//import Googleloader from"./Projects/Googleloader"
+//import Loader1 from "./Projects/Loader1"
+//import Loader2 from "./Projects/Loader2"
+//import Loader from"./Projects/Loader"
+import Searchbar from "./Projects/Searchbar"
+//import Searchbox from"./Projects/Searchbox"
+//import Skillsbar from"./Projects/Skillsbar"
+//import Circural from"./Projects/Circular"
 //import Cards from "./Projects/Cards"
-import Loginform from"./Projects/Loginform"
+//import Loginform from"./Projects/Loginform"
 //import Popup from"./Projects/Popup"
 //import Loginform1 from"./Projects/Loginform1"
 //import Loginform2 from"./Projects/Loginform2"
+//import Registration from"./Projects/Registration"
 //import Sass from "./Sass/Sass"
 //import Project from "./Project/Project";
 /*import Kavi from"./Text/Code/kavi"
@@ -68,7 +77,7 @@ function App() {
       <Footer/>
   </Router>*/
  <div>
-    <Loginform/>
+    <Searchbar/>
 
   </div>  
 

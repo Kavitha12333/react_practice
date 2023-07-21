@@ -1,0 +1,28 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    background-color: green;
+    .spinner{
+        width:80px;
+        height:80px;
+        border:10px solid #fff;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spinner 0.7s linear infinite;
+    }
+    @keyframes spinner {
+        to{
+            transform:rotate(360deg)
+        }
+        
+    }
+
+}

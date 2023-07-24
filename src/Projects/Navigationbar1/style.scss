@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.container{
+    background-color: #ecf0f3;
+    .nav{
+        background-color: #ecf0f3;
+        width:100%;
+        padding:12px 0;
+        box-shadow: -3px -3px 7px #ffffff,3px 3px 5px #ceced1 ;
+    }
+    .menu{
+        
+        margin:auto;
+        max-width: 1270px;
+        padding:0 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo a{
+        font-size: 30px ;
+        font-weight: 600;
+        text-decoration: none;
+        color:#31344b;
+
+    }
+    .list{
+
+        list-style: none;
+        display:flex;
+        column-gap: 30px;
+        font-size: 15px;
+        text-transform: capitalize;
+        
+        a{
+            
+            
+            margin: 0 8px;
+            text-decoration: none;
+            color: #31344b;
+            font-weight: 400;
+            display:inline-flex;
+            padding:10px 12px;
+            box-shadow: -3px -3px 7px #ffffff,3px 3px 5px #ceced1 ;
+            position:relative;
+            transition: all 0.3s ease;
+
+        }
+        
+        a:hover::before{
+            content: "";
+            position:absolute;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+            box-shadow:inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1 ;
+        }
+    }
+    .button{
+        color:#31344b;
+        font-size: 18px;
+        cursor: pointer;
+        display: none;
+    }
+    .cancel
+    {
+        position:absolute;
+        top:5px;
+        right:30px;
+    }
+    #check{
+        display:none;
+    }
+    @media (max-width:940px) {
+        .list{
+            display:block;
+            position:fixed;
+            top:0;
+            /*left:-100%;*/
+            left:0;
+           width:100%;
+           max-width: 400px;
+           padding-top:45px; 
+           height:100%;
+           background-color:#ecf0f3;
+           box-shadow: 0 5px 10px #b0b0b5;
+           z-index: 12;
+
+            
+       a{
+        display: block;
+        font-size: 23px;
+        width:100%;
+        margin-top: 30px;
+        box-shadow: none;
+        text-align: center;
+       } 
+     a:hover:before{
+        box-shadow: none;
+       } 
+       .bars{
+        display:block;
+       } 
+     /*  #check:checked ~ .bars{
+        display:none;
+       }
+       #check:checked ~ .cancel{
+        display: block;
+       } 
+       #check:checked ~ .list{
+        left:0;
+       }*/ 
+
+       
+       
+        
+    }
+}
+}

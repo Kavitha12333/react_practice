@@ -1,10 +1,20 @@
 //import React, {useState, useEffect} from "react";
 import React from "react"
+//import Card from "./Projects/Card"
+//import Togglebutton from"./Projects/Togglebutton"
+//import Socialmediaicons from"./Projects/Socialmediaicons"
+//import Rediobutton from"./Projects/Rediobutton"
+//import Loaddingspinner from"./Projects/Loaddingspinner"
+//import Menu from"./Projects/Menu"
+//import Menu2 from"./Projects/Menu2"
+//import Navigationbar from"./Projects/Navigationbar"
+//import Navigationbar1 from"./Projects/Navigationbar1"
+import Navigationbar2 from"./Projects/Navigationbar2"
 //import Googleloader from"./Projects/Googleloader"
 //import Loader1 from "./Projects/Loader1"
 //import Loader2 from "./Projects/Loader2"
 //import Loader from"./Projects/Loader"
-import Searchbar from "./Projects/Searchbar"
+//import Searchbar from "./Projects/Searchbar"
 //import Searchbox from"./Projects/Searchbox"
 //import Skillsbar from"./Projects/Skillsbar"
 //import Circural from"./Projects/Circular"
@@ -77,7 +87,7 @@ function App() {
       <Footer/>
   </Router>*/
  <div>
-    <Searchbar/>
+    <Navigationbar2/>
 
   </div>  
 

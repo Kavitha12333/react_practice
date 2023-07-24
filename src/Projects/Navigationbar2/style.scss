@@ -59,6 +59,9 @@ background-color: #fff;
     .menu-button{
         display:block;
     }
+    #click:checked ~ .menu-button::before{
+        /*content:"\f00d";*/
+    }
     .ul{
         position:fixed;
         top:80px;

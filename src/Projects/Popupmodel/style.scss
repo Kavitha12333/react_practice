@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.body{
+   
+}
+.show-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    height:55px;
+    background: gray;
+    padding:0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 55px;
+    cursor: pointer;
+    color:#fff;
+    background: #2980b9;
+    border-radius: 5px;
+}
+.show-button:hover{
+    background: #2573a7;
+}
+.background{
+
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    background-color:#fff;
+   opacity:0;
+    pointer-events: none;
+    transition:all 0.3s ease;
+}
+#check:checked ~ .background{
+    opacity:1;
+    pointer-events: auto;
+
+}
+
+.alert-box{
+    width:400px;
+    background:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50% , -50%);
+    border-radius: 5px;
+    text-align: center;
+    opacity:0;
+    pointer-events: none;
+    transition:all 0.3s ease;
+}
+#check{
+    display:none;
+}
+#check:checked ~ .alert-box{
+    opacity:1;
+    pointer-events: auto;
+
+} 
+.icon{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    border-radius: 50%;
+    color:red;
+    line-height: 100px;
+
+}
+header{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin:10px 0;
+    font-weight: 500;
+}
+p{
+    font-size: 20px;
+}
+.btns{
+    margin-top: 20px;
+}
+label{
+    display:inline-flex;
+    flex-direction: row;
+
+    height:55px;
+    margin-right: 20px;
+    padding:0 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 55px;
+    cursor: pointer;
+    color:black;
+    border-radius: 5px;
+    margin:0 10px;
+    transition:all 0.3s ease;
+}
+label:first-child{
+    background: #2980b9;
+}
+label:first-child:hover{
+    background: #2573a7;
+}
+label:last-child{
+    background: #b92929;
+}
+label:last-child:hover{
+    background: #b93c29;
+}

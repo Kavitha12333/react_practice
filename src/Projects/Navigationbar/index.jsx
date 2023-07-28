@@ -7,7 +7,7 @@ import "./style.scss"
       <div className='wrapper'>
         <input type="checkbox" id="btn"/>
         <label for="btn" className='menubutton'>
-        <MenuIcon></MenuIcon>
+       <i> <MenuIcon></MenuIcon></i>
         </label>
         <nav id="sidebar">
           <div className='title'>side menu</div>

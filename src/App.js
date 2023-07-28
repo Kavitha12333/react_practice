@@ -1,5 +1,13 @@
 //import React, {useState, useEffect} from "react";
 import React from "react"
+//import Checkbox from"./Projects/Checkbox"
+import Popupmodel from "./Projects/Popupmodel"
+//import Sharebutton from"./Projects/Sharebutton"
+//import Icons from"./Projects/Icons"
+//import Linkhover from "./Projects/Linkshover"
+//import Rediobtn from "./Projects/Rediobtn"
+//import Customcheckbox from "./Projects/Customcheckbox";
+//import Borderhover from "./Projects/Borderhover"
 //import Card from "./Projects/Card"
 //import Togglebutton from"./Projects/Togglebutton"
 //import Socialmediaicons from"./Projects/Socialmediaicons"
@@ -9,7 +17,7 @@ import React from "react"
 //import Menu2 from"./Projects/Menu2"
 //import Navigationbar from"./Projects/Navigationbar"
 //import Navigationbar1 from"./Projects/Navigationbar1"
-import Navigationbar2 from"./Projects/Navigationbar2"
+//import Navigationbar2 from"./Projects/Navigationbar2"
 //import Googleloader from"./Projects/Googleloader"
 //import Loader1 from "./Projects/Loader1"
 //import Loader2 from "./Projects/Loader2"
@@ -87,7 +95,7 @@ function App() {
       <Footer/>
   </Router>*/
  <div>
-    <Navigationbar2/>
+    <Popupmodel/>
 
   </div>  
 

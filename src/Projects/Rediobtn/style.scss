@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins"sans-serif;
+}
+.container{
+    display:grid;
+    place-items: center;
+    height:100vh;
+    width:100%;
+    background: linear-gradient(to bottom,#68EACC 0%, #497BE8 100%);
+}
+.card{
+    width:300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.cards{
+    margin-top: 20px;
+}
+.box{
+    display:flex;
+    background-color: #ddd;
+    margin-top: 12px;
+    padding:10px 12px;
+    border-radius: 5px;
+    border:2px solid transparent;
+    cursor: pointer;
+    transition:all 0.25s ease
+}
+#one:checked ~ .first,
+#two:checked ~ .second,
+#three:checked ~ .third{
+    border-color: #8E49E8;
+    background: #D5BBf7;
+}
+.box:hover{
+    background: #D5BBf7;
+}
+.course{
+    display:flex;
+    width:100%;
+    align-items: center;
+}
+.box .circle{
+    height:22px;
+    width:22px;
+    background: #ccc;
+    border-radius: 50%;
+    border:5px solid transparent;
+    margin-right: 15px;
+    display:inline-block;
+    border:5px solid transparent;
+    transition:all 0.25s ease;
+box-shadow:inset -4px -4px 10px rgba(0,0,0,0.2)
+}
+#one:checked ~ .first .circle,
+#two:checked ~ .second .circle,
+#three:checked ~ .third .circle{
+background: #fff;
+border-color: #8E49E8;
+}
+input[type="radio"]{
+    display:none;
+}
